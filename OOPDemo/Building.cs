@@ -2,11 +2,11 @@
 {
     internal abstract class Building : IDestroyable
     {
-        public String name { get; set; }
-        public String location { get; set; }
+        public string name { get; set; }
+        public string location { get; set; }
         protected int hitPoints;
 
-        public Building(String name, int hitPoints)
+        public Building(string name, int hitPoints)
         {
             this.name = name;
             this.hitPoints = hitPoints;
